@@ -1,0 +1,14 @@
+<!--Ex.36 Create HTML page to implement image map feature on any image. (Clickable Area in your image to navigate to specific object by click on that.)-->
+
+<!doctype html>
+<html> <head><title>Image Map example</title></head>
+<body>
+
+<img src="diagram.png" width="1000px" height="500px" alt="diagram" usemap="#diagram">
+
+<map name="diagram">
+  <area shape="circle" coords="476,265,94" href="1.jpg" alt="circle">
+<area shape="rect" coords="15,155,284,375" href="rect.jpg" alt="rectangle">
+<area shape="poly" coords="690,215,810,150,920,270,920,350,760,350" href="" alt="polygon"> 
+</map>
+</body></html>
